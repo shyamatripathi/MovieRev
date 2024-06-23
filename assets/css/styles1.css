@@ -1,0 +1,109 @@
+styles1.css
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #777;
+}
+
+main {
+    padding: 20px;
+}
+
+.reviews {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reviews h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.movie-posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    margin: 20px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.movie img:hover {
+    transform: scale(1.05);
+}
+
+.rating {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #ffcc00;
+}
+
+.review {
+    font-size: 16px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%
+}
